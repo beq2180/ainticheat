@@ -1,0 +1,20 @@
+name: AegisAC
+version: '1.0.0'
+main: dev.chatty.aegisac.AegisAC
+api-version: '1.21.11'
+author: Chatty
+load: POSTWORLD
+description: Layered movement, combat, automation, anti-knockback, and X-Ray detection for Paper 1.21.11.
+commands:
+  aegisac:
+    description: AegisAC administration command
+    aliases: [ac]
+    usage: /aegisac <status|alerts|vl|reset|reload>
+    permission: aegisac.command
+permissions:
+  aegisac.command:
+    default: op
+  aegisac.alerts:
+    default: op
+  aegisac.bypass:
+    default: false
